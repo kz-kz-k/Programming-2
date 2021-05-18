@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+  int In1,In2, sum, product, quotient, sub;
+  printf("Enter a number: ");
+  scanf("%d", &In1);
+  printf("Enter a number: ");
+  scanf("%d", &In2);
+
+  sum = In1+In2;
+  printf("In1+In2 = %d\n", sum);
+
+  product = In1*In2;
+  printf("In1*In2 = %d\n", product);
+
+  quotient = In1/In2;
+  printf("In1/In2 = %d\n", quotient);
+
+  sub = In1-In2;
+  printf("In1-In2 = %d\n", sub);
+
+  return 0;
+}
